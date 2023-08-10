@@ -1,0 +1,34 @@
+<mxfile host="Electron" modified="2023-08-10T17:45:29.628Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.6.5 Chrome/114.0.5735.243 Electron/25.3.1 Safari/537.36" etag="kS_U37Znl3qXtXYl6hjU" version="21.6.5" type="device">
+  <diagram name="Page-1" id="iRF4Qwf4I_FHM9nSVd2Q">
+    <mxGraphModel dx="954" dy="588" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="fRCFHSY8frGHAWAjoShL-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="120" width="660" height="1030" as="geometry" />
+        </mxCell>
+        <mxCell id="fRCFHSY8frGHAWAjoShL-2" value="img" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="240" y="230" width="400" height="400" as="geometry" />
+        </mxCell>
+        <mxCell id="fRCFHSY8frGHAWAjoShL-3" value="title" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="160" width="400" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="fRCFHSY8frGHAWAjoShL-5" value="Description+Source" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="660" width="370" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="fRCFHSY8frGHAWAjoShL-6" value="Prep Time" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="660" width="230" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="fRCFHSY8frGHAWAjoShL-8" value="Ingredients" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="130" y="830" width="300" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="fRCFHSY8frGHAWAjoShL-9" value="Steps" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="450" y="830" width="300" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="fRCFHSY8frGHAWAjoShL-10" value="Recipes Layout" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="385" y="70" width="110" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
