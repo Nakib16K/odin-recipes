@@ -3,16 +3,39 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="./styles/index-styles.css">
+    <title>Odin-Recipes</title>
 </head>
 <body>
-    <h1>Odin Recipes</h1>
+    <header class="header" id="header">
+        <h1>Odin Recipes</h1>
+    </header>
 
-    <ul>
-        <li><a href="./recipes/Biryani.html">Chicken Biryani</a></li>
-        <li><a href="./recipes/GrilledTomahawkSteak.html">Grilled Tomahawk Steak</a></li>
-        <li><a href="./recipes/GreekCouscousSalad.html">Greek Couscous Salad</a></li>
-    </ul>
-   
+    <div class="food-img" id="food-img">
+        <img class="foodimg img1 shadow-border" src="https://www.allrecipes.com/thmb/PZE-Y3MNFPOi9rw6gsWm92oNiB0=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/RM_16102_ChickenBiryani_ddmfs_3x4_5315-236dfbbc7965498cac20b87797841b69.jpg" alt="a very appetizing picture of chicken biryani" width="375px" height="281.5px">
+        <img class="foodimg img2 shadow-border" src="https://www.allrecipes.com/thmb/KFsMHU1dhZHfrYGgaORJ98GvnHk=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/7508957_Grilled-Tomahawk-Steak_Ashley-Elizabeth_4x3-5b17eab73d154d6394829d47d6ff3365.jpg " alt="a plate of tomahawk steak with succulent rice" width="375px" height="281.5px">
+        <img class="foodimg img3 shadow-border" src="https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F1389405.jpg&q=60&c=sc&orient=true&poi=auto&h=512" alt="a picture of greek couscous salad" width="375px" height="281.5px">
+    </div>
+    
+    <article class="main-article" id="main-article">
+        <h2 class="description" id="index-description">
+            A collection of three of my favourite food/salad!
+        </h2>
+        <ul class="recipes-list list-style shadow-border" id="recipes-list">
+            <li><a class="link" id="link" href="./recipes/Biryani.html">Chicken Biryani</a></li>
+            <li><a class="link" id="link" href="./recipes/GrilledTomahawkSteak.html">Grilled Tomahawk Steak</a></li>
+            <li><a class="link" id="link" href="./recipes/GreekCouscousSalad.html">Greek Couscous Salad</a></li>
+        </ul>
+    </article>
+    <footer class="footer list-style shadow-border" id="footer">
+        <address class="address" id="address">
+            <ul class="social-list" id="social-list">
+                <li>By Abdullah Al Nakib</li>
+                <li>Visit my socials:</li>
+                <li><a class="link" id="link" href="https://github.com/Nakib16K" alt="link to github" target="_blank" rel="noopener" rel="noreferrer">Github</a></li>
+                <li><a class="link" id="link" href="https://www.linkedin.com/in/abdullah-al-nakib-40341b262/" alt="link to linkedin" target="_blank" rel="noopener" rel="noreferrer">LinkedIn</a></li>
+            </ul>
+        </address>
+    </footer>
 </body>
 </html>
