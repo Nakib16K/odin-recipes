@@ -1,0 +1,93 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    background-color: floralwhite;
+    margin-top: 1em 0 0 0;
+    color: #00050F;
+}
+.header{
+    text-align: center;
+    font-weight: 700;
+    font-size: 1.6rem;
+    margin-bottom: 0;
+}
+.shadow-border{
+    box-shadow: 1px 5px 8px 2px rgba(0, 0, 0, 0.2), 1px 6px 20px 2px rgba(0, 0, 0, 0.19);
+    border: 0.5px solid rgba(0, 0, 0, 0.3);
+    border-radius: 1em;
+}
+.food-img{
+    position: relative;
+    min-height: 500px;
+    max-width: 70%;
+    min-width: 500px;
+    margin: 0em auto 1em auto;
+    overflow: hidden;
+    border-radius: 1em;
+}
+.foodimg{ 
+    position: absolute;
+    margin: 0;
+    padding: 0;
+}
+.foodimg.img1 {
+    left: 5%;
+    top: 5%;
+}
+.foodimg.img2 {
+    top: 0;
+    bottom: 0;
+    left:0;
+    right:0;
+    margin: auto;
+}
+.foodimg.img3 {
+    right: 5%;
+    bottom: 5%;
+}
+.main-article .description{
+    font-size: 1.4rem;
+    font-weight: 700;
+    text-align: center;
+    margin: 0;
+}
+.list-style{
+    background-color: #00050F;
+    opacity: 0.85;
+    color: floralwhite;
+}
+.recipes-list{
+    width: 50%;
+    padding: 1em;
+    margin: 1.5em auto;
+}
+.recipes-list li, address li{
+    text-align: center;
+    list-style: none;
+    padding: 0.25em;
+    margin: 0 0.5em 0 0.5em;
+}
+.link:link, .link:visited, .link{
+    color: floralwhite;
+    text-decoration: none;
+}
+.link:hover{
+    color: rgba(200, 0, 0, 0.5);
+}
+.link:focus{
+    color: brown;
+}
+.footer{
+    font-size: 0.8rem;
+    padding: 0.5em;
+    margin: 1.5em 0 0 0;
+}
+.social-list{
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+    margin: 0;
+    padding: 0;
+}
+
+
